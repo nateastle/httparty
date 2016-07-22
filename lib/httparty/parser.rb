@@ -40,8 +40,8 @@ module HTTParty
     SupportedFormats = {
       'text/xml'               => :xml,
       'application/xml'        => :xml,
-      'application/json'       => :json,
-      'text/json'              => :json,
+      'application/json'       => :plain,
+      'text/json'              => :plain,
       'application/javascript' => :plain,
       'text/javascript'        => :plain,
       'text/html'              => :html,
